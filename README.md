@@ -1,4 +1,4 @@
-# Chat Application
+# ChaD Application
 
 This project is a real-time messaging application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Socket.io for real-time communication. It also utilizes Zustand for global state management, JWT for authentication and authorization, and TailwindCSS with Daisy UI for styling.
 
@@ -28,3 +28,20 @@ JWT_SECRET = <jwt-secret>
 NODE_ENV = <node-env>
 
 ```
+
+## Build the app
+```
+
+npm run build
+
+```
+
+## Start the app
+```
+
+npm start
+
+```
+
+
+
