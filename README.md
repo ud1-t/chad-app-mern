@@ -1,11 +1,12 @@
-Chat Application
+# Chat Application
 
 This project is a real-time messaging application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack along with Socket.io for real-time communication. It also utilizes Zustand for global state management, JWT for authentication and authorization, and TailwindCSS with Daisy UI for styling.
 
-Features:
-Real-time Messaging: Utilizes Socket.io for real-time messaging between users.
-Global State Management: Zustand is employed for efficient global state management across the application.
-Authentication & Authorization: JWT is used for secure authentication and authorization mechanisms.
-Online User Status: Implements real-time user status indicators using Socket.io and React Context.
-Error Handling: Comprehensive error handling on both the server and client sides ensures smooth user experience.
-Tech Stack: MERN (MongoDB, Express.js, React.js, Node.js), Socket.io, TailwindCSS, Daisy UI.
+## Features
+
+- **Real-time Messaging:** Utilizes Socket.io for real-time messaging between users.
+- **Global State Management:** Zustand is employed for efficient global state management across the application.
+- **Authentication & Authorization:** JWT is used for secure authentication and authorization mechanisms.
+- **Online User Status:** Implements real-time user status indicators using Socket.io and React Context.
+- **Error Handling:** Comprehensive error handling on both the server and client sides ensures smooth user experience.
+- **Tech Stack:** MERN (MongoDB, Express.js, React.js, Node.js), Socket.io, TailwindCSS, Daisy UI.
