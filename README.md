@@ -15,12 +15,16 @@ This project is a real-time messaging application built using the MERN (MongoDB,
 
 
 
-## 4. Set up environment variables:
+
+## Set up environment variables:
 
 - Create a `.env` file in the root directory and define the following variables:
 
 ```
-PORT=<port-number>
-MONGODB_URI=<mongodb-uri>
-JWT_SECRET=<jwt-secret>
+
+PORT = `<port-number>`
+MONGO_DB_URI = `<mongodb-uri>`
+JWT_SECRET = `<jwt-secret>`
+NODE_ENV = `<node-env>`
+
 ```
