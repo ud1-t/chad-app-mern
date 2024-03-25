@@ -10,3 +10,11 @@ This project is a real-time messaging application built using the MERN (MongoDB,
 - **Online User Status:** Implements real-time user status indicators using Socket.io and React Context.
 - **Error Handling:** Comprehensive error handling on both the server and client sides ensures smooth user experience.
 - **Tech Stack:** MERN (MongoDB, Express.js, React.js, Node.js), Socket.io, TailwindCSS, Daisy UI.
+
+
+
+
+## Installation
+
+1. Clone the repository:
+   git clone <repository-url>
