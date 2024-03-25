@@ -22,9 +22,9 @@ This project is a real-time messaging application built using the MERN (MongoDB,
 
 ```
 
-PORT = `<port-number>`
-MONGO_DB_URI = `<mongodb-uri>`
-JWT_SECRET = `<jwt-secret>`
-NODE_ENV = `<node-env>`
+PORT = <port-number>
+MONGO_DB_URI = <mongodb-uri>
+JWT_SECRET = <jwt-secret>
+NODE_ENV = <node-env>
 
 ```
