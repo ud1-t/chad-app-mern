@@ -17,4 +17,7 @@ This project is a real-time messaging application built using the MERN (MongoDB,
 ## Installation
 
 1. Clone the repository:
-   git clone <repository-url>
+```
+git clone <repository-url>
+
+```
