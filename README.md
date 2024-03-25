@@ -14,10 +14,13 @@ This project is a real-time messaging application built using the MERN (MongoDB,
 
 
 
-## Installation
 
-1. Clone the repository:
+## 4. Set up environment variables:
+
+- Create a `.env` file in the root directory and define the following variables:
+
 ```
-git clone <repository-url>
-
+PORT=<port-number>
+MONGODB_URI=<mongodb-uri>
+JWT_SECRET=<jwt-secret>
 ```
