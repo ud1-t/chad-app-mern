@@ -7,25 +7,25 @@ const useGetConversations = () => {
   const [conversations, setConversations] = useState([])
 
   useEffect(() => {
-    const getConversations = async () => {
-        setLoading(true)
-         try {
-            const res = await fetch('/api/users')
-            const data = await res.json()
-            if(data.error) {
-                throw new Error(data.error)
+      const getConversations = async () => {
+         setLoading(true)
+            try {
+               const res = await fetch('/api/users')
+               const data = await res.json()
+               if(data.error) {
+                  throw new Error(data.error)
+               }
+
+               setConversations(data)
+
+            } catch (error) {
+               toast.error(error.message)
+            } finally {
+               setLoading(false)
             }
+      }
 
-            setConversations(data)
-
-         } catch (error) {
-            toast.error(error.message)
-         } finally {
-            setLoading(false)
-         }
-    }
-
-    getConversations()
+      getConversations()
   }, [])
 
 
